@@ -1,0 +1,145 @@
+/* PALHETA DE CORES */
+
+:root {
+    --black: #121212;
+    --light-black: #363636;
+    --green: #1DB954;
+    --blue:  #1D75DE;
+
+
+
+
+}
+/* MOBILE FIRST */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--black);
+    padding: 0px 25px ;
+}
+
+/* HEADER E NAVBAR */
+
+#navbar-home{
+    padding: 25px 0px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+#navbar-home *{
+    margin-right: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+#navbar-home .profile-image img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.btn{
+    background-color: var(--light-black);
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+
+#navbar-home .selected{
+    background-color: var(--green);
+    color: black ;
+}
+
+
+/* Playlist GRID */
+
+#playlist-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+   
+  
+}
+
+#playlist-grid .grid-item{
+    background-color: var(--light-black);
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+
+.playlist-img{
+    height: 60px;
+    width: 60px;
+}
+
+#playlist-grid .playlist-name{
+    color: #fff;
+    font-weight: 600;
+    align-self: center;
+    padding-left: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:800px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+
+
+}
+@media (max-width:1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+
+}
+@media (max-width:1280px) { /* big landscape tablets, laptops, and desktops */ 
+
+
+}
+@media (max-width:1281px) { /* hi-res laptops and desktops */ 
+
+
+}
